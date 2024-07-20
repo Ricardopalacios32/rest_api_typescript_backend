@@ -37,7 +37,7 @@ const corsOptions : CorsOptions = {
     }
 }
 
-server.use(cors())
+server.use(cors(corsOptions))
 
 
 //leer datos
